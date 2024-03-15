@@ -9,7 +9,18 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
-
+/**
+ * title : Consumer
+ *
+ * description : 카프카 컨슈머
+ *
+ * reference : 개발 참고 https://recordsoflife.tistory.com/566
+ *
+ *
+ *
+ * author : 임현영
+ * date : 2024.03.12
+ **/
 
 @Component
 @Slf4j

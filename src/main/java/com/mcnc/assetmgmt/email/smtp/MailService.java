@@ -55,7 +55,7 @@ public class MailService {
                 javaMailSender.send(message);
             }
         }catch (Exception e){
-            log.info("##### 메일 에러 발생 : {}",e.getMessage());
+            log.error("##### 메일 에러 발생 : {}",e.getMessage());
         }
     }
 
